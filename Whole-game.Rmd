@@ -69,7 +69,27 @@ The foofactors package itself is not our goal here. It is a device for demonstra
 
 The foofactors package is tracked during its development with the Git version control system. This is purely optional and you can certainly follow along without implementing this. A nice side benefit is that we eventually connect it to a remote repository on GitHub, which means you can see the glorious result we are working towards by visiting foofactors on GitHub: <https://github.com/jennybc/foofactors>. By inspecting the [commit history](https://github.com/jennybc/foofactors/commits/master) and especially the diffs, you can see exactly what changes at each step of the process laid out below.
 
-*TODO: I think these diffs are extremely useful and would like to surface them better here.*
+1.  [Initial commit](https://github.com/jennybc/foofactors/commit/d4c52a3fef926e9e49726c9faa92ced1f6850147)
+
+2.  [Add fbind()](https://github.com/jennybc/foofactors/commit/ea3f1534cd13836b2e4796b74fde0d19878cf717)
+
+3.  [Edit DESCRIPTION](https://github.com/jennybc/foofactors/commit/e3dc0d35788fbd64d4c32818eb3e0a9291f3d3c1)
+
+4.  [Add LICENSE](https://github.com/jennybc/foofactors/commit/a031c3472175fffc1022a979169d66a88fbb103c)
+
+5.  [Add roxygen header to document fbind()](https://github.com/jennybc/foofactors/commit/8ee7d6e4c5154390ce7b89168abcad9a863498b8)
+
+6.  [Run document()](https://github.com/jennybc/foofactors/commit/39f6163ca492efe9b74a96ce3c7c2c300d3581ad)
+
+7.  [Add testing infrastructure](https://github.com/jennybc/foofactors/commit/610833545a2e9bcd52ee08a220b1dbea2189fe18)
+
+8.  [Import forcats](https://github.com/jennybc/foofactors/commit/22cf94ff814a675c5aa9b620234f4305088cd45f)
+
+9.  [Add fcount()](https://github.com/jennybc/foofactors/commit/537ca9f82fc6b227a94064a9af369ef57ad3cc7b)
+
+10. [Document and export fcount()](https://github.com/jennybc/foofactors/commit/d327065d657c45e011a8c0e9a604da8b30139b3d)
+
+11. [Write README.Rmd and render](https://github.com/jennybc/foofactors/commit/ef71e8d2e82fa80e0cfc249fd42f50c01924326d)
 
 ## `create_package()`
 

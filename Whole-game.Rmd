@@ -157,7 +157,7 @@ proj_sitrep()
 
 If you're working in RStudio, you should find yourself in a new instance of RStudio, opened into your new foofactors package (and Project). If you somehow need to do this manually, navigate to the directory and double click on `foofactors.Rproj`. RStudio has special handling for packages and you should now see a *Build* tab in the same pane as *Environment* and *History*.
 
-*TODO: good place for a screenshot.*
+![Build tab in RStudio](images/plane-build-tab.png)
 
 What's in this new directory that is also an R package and, probably, an RStudio Project? Here's a listing (locally, you can consult your *Files* pane):
 
@@ -211,7 +211,7 @@ dir_info(all = TRUE, regexp = "^[.]git$") %>%
 
 If you're using RStudio, it probably requested permission to relaunch itself in this Project. You can do so manually by quitting and relaunching by double clicking on `foofactors.Rproj`. Now, in addition to package development support, you have access to a basic Git client in the *Git* tab of the *Environment/History/Build* pane.
 
-*TODO: good place for a screenshot.*
+![Git plane in RStudio](images/plane-git-tab.png)
 
 Click on History (the clock icon) and, if you consented, you will see an initial commit made via `use_git()`:
 
